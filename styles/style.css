@@ -39,6 +39,21 @@ a {
     margin-bottom: 8vh;
 }
 
+.ba-logo__img {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ba-logo__img svg {
+    width: 75px;
+    height: 75px;
+    stroke: #fff;
+    fill: #fff;
+}
+
 .ba-hero__title {
     font-size: 3.375rem;
     letter-spacing: .16em;
@@ -196,8 +211,11 @@ a {
     align-items: center;
 }
 
-.ba-offer__icon img {
-    max-width: 100%;
+.ba-offer__icon svg {
+    width: 80px;
+    height: 90px;
+    color: #3c3c3c;
+    fill: #3c3c3c;
 }
 
 .ba-offer__title {
@@ -276,12 +294,26 @@ a {
     justify-content: center;
 }
 
-.ba-footer__logo {
+.ba-footer__logo svg{
     width: 35px;
     height: 37px;
+    stroke: #3c3c3c;
+    fill: #3c3c3c;
     margin-right: 2rem;
 }
 
 .ba-footer__info {
     font-size: .875rem;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    clip: rect(1px 1px 1px 1px);
+    /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    padding: 0 !important;
+    border: 0 !important;
+    height: 1px !important;
+    width: 1px !important;
+    overflow: hidden;
 }
